@@ -4,24 +4,33 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public int health = 100;
+    public int Health = 100;
     public int CurrentHealth;
     public Animator Anim;
 
-    public void TakeDamage(int damage)
+    // Start is called before the first frame update
+    void Start()
     {
-        CurrentHealth -= damage;
+        CurrentHealth = Health;
+    }
+
+    public void TakeDamage(int Damage)
+    {
+        CurrentHealth -= Damage;
         Anim.SetTrigger("Hurt");
 
-        if (health <= 0)
+        if (CurrentHealth <= 0)
         {
             Invoke("Die", 2);
         }
     }
 
-    void Die()
+    public void Die()
     {
-        GetComponent<Animator>().SetBool("Death", true);
-        Destroy(gameObject);
+        Debug.Log("Enemy Died");
+        Anim.SetBool("Death", true);
+
+        GetComponent<Collider2D>().enabled = false;
+        this.enabled = false;
     }
 }

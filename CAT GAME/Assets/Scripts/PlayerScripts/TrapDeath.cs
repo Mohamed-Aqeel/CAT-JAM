@@ -29,8 +29,5 @@ public class TrapDeath : MonoBehaviour
         GetComponent<Animator>().SetTrigger("Death");
     }
 
-    private void RestartLevel()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    
 }

@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 221210713}
   - component: {fileID: 221210712}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.20784315, g: 0.14117648, b: 0.3137255, a: 1}
+  m_Color: {r: 0.1507144, g: 0.09117122, b: 0.24528301, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 402208388}
   - component: {fileID: 402208387}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Tittle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -649,7 +649,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 198.9, y: 117.6}
+  m_AnchoredPosition: {x: 186.65, y: 140.1}
   m_SizeDelta: {x: 317.1506, y: 66.8389}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &971193735
@@ -665,7 +665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.7137255, g: 0.47450984, b: 0.36862746, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -674,7 +674,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 7e63d479dcfe1a442a3aec1f4f58a8b5, type: 3}
-    m_FontSize: 34
+    m_FontSize: 28
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 7
@@ -729,7 +729,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260.12552, y: 79.30783}
+  m_AnchoredPosition: {x: 229.12552, y: 106.80783}
   m_SizeDelta: {x: 317.1506, y: 66.8389}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &972221071
@@ -745,7 +745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.20784315, g: 0.14117648, b: 0.3137255, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -754,7 +754,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f7f181173f455ef4b9ade6979e19643d, type: 3}
-    m_FontSize: 39
+    m_FontSize: 42
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 7
@@ -852,7 +852,7 @@ Transform:
   m_GameObject: {fileID: 1215195437}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 444.60086, y: 211.59157, z: 0}
-  m_LocalScale: {x: 904.8365, y: 453.18637, z: 614.49}
+  m_LocalScale: {x: 2464.4126, y: 1234.2983, z: 1673.6249}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

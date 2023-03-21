@@ -1,5 +1,7 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
+=======
 --- !u!1 &8523820927817048718
 GameObject:
   m_ObjectHideFlags: 0
@@ -71,6 +73,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.03}
   m_EdgeRadius: 0
+>>>>>>> 8f6a2962995ce4a7122a83ac42c5c82345d1ff4c
 --- !u!1 &8523926233366848320
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,14 +109,22 @@ Transform:
   m_LocalPosition: {x: 0, y: -2.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
+<<<<<<< HEAD
+  m_Children: []
+=======
   m_Children:
   - {fileID: 8529319182408335208}
+>>>>>>> 8f6a2962995ce4a7122a83ac42c5c82345d1ff4c
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &8582241013028982680
 Animator:
+<<<<<<< HEAD
+  serializedVersion: 5
+=======
   serializedVersion: 4
+>>>>>>> 8f6a2962995ce4a7122a83ac42c5c82345d1ff4c
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -130,7 +141,11 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+<<<<<<< HEAD
+  m_KeepAnimatorStateOnDisable: 0
+=======
   m_KeepAnimatorControllerStateOnDisable: 0
+>>>>>>> 8f6a2962995ce4a7122a83ac42c5c82345d1ff4c
 --- !u!212 &8411982218537768102
 SpriteRenderer:
   m_ObjectHideFlags: 0
